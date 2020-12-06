@@ -1,0 +1,23 @@
+Source: budgie-clipboard-applet
+Section: misc
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 13),
+ debhelper-compat (= 13),
+ libgtk-3-dev,
+ valac,
+ budgie-core-dev,
+ meson,
+ libpeas-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://github.com/UbuntuBudgie/budgie-clipboard-applet/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/budgie-clipboard-applet -b debian
+Homepage: https://github.com/prateekmedia/budgie-clipboard-applet
+
+
+Package: budgie-clipboard-applet
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Help to store and manage clipboard content on the Budgie desktop
+ A clipboard manager applet that can help you to store and manage clipboard
+ content on the Budgie desktop, Written using Vala.

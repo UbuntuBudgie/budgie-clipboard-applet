@@ -17,7 +17,7 @@ Homepage: https://github.com/prateekmedia/budgie-clipboard-applet
 
 Package: budgie-clipboard-applet
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
+Depends: ${misc:Depends}, ${shlibs:Depends}, wl-clipboard
 Description: Help to store and manage clipboard content on the Budgie desktop
  A clipboard manager applet that can help you to store and manage clipboard
  content on the Budgie desktop, Written using Vala.

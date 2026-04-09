@@ -11,8 +11,8 @@ ClipMgrSources = [
 
 ClipMgrDependencies = [
 dependency('gtk+-3.0'), 
-dependency('budgie-1.0'),
-dependency('libpeas-gtk-1.0'),
+dependency('budgie-3.0'),
+dependency('libpeas-2'),
 meson.get_compiler('c').find_library('m', required: false)
 ]
 

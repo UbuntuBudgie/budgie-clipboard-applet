@@ -1,3 +1,9 @@
+budgie-clipboard-applet (2.0.0-0ubuntu2~resolute) resolute; urgency=medium
+
+  * Add more runtime dependencies - ydotool, x11utils, wtype
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 09 Apr 2026 22:43:35 +0100
+
 budgie-clipboard-applet (2.0.0-0ubuntu1~resolute) resolute; urgency=medium
 
   * New version under the Ubuntu Budgie github org

@@ -6,7 +6,8 @@ configure_file(input: 'config.h.in', output: 'config.h', configuration: configur
 install_data('ClipboardManager.plugin', install_dir: LIB_INSTALL_DIR)
 
 ClipMgrSources = [
-'ClipboardManagerApplet.vala'
+'ClipboardManagerApplet.vala',
+'ClipboardManagerHandler.vala'
 ]
 
 ClipMgrDependencies = [

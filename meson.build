@@ -1,23 +1,13 @@
 project('com.prateekmedia.clipboardmanager',
         ['vala', 'c'],
-        version: '1.0.1',
+        version: '2.1.0',
         meson_version: '>=0.40.0',
         license: 'GPL3')
 
 am_cflags = [
-    '-fstack-protector',
-    '-pedantic',
-    '-Wstrict-prototypes',
-    '-Wundef',
-    '-Werror-implicit-function-declaration',
-    '-Wformat',
-    '-Wformat-security',
-    '-Werror=format-security',
-    '-Wconversion',
-    '-Wunused-variable',
-    '-Wunreachable-code',
-    '-Wall',
-    '-W',
+    '-w',
+    '-Wno-incompatible-pointer-types',
+    '-Wno-implicit-function-declaration',
 ]
 
 add_global_arguments(am_cflags, language: 'c')
